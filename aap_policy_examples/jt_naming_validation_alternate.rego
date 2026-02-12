@@ -1,3 +1,5 @@
+# This is an alternate approach for enforcing a job template naming validation using fixed, allowed keywords.
+# Documentation for this alternate policy is in the 8.Enforce Job Template Naming Standards document
 package aap_policy_examples
 
 import rego.v1
