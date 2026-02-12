@@ -10,6 +10,7 @@ Policy as Code allows you to define and enforce policies across your Ansible Aut
 
 - Ansible Automation Platform 2.5 or later with the `FEATURE_POLICY_AS_CODE_ENABLED` feature flag set to `True` 
   - see [Enabling Policy as Code Feature](docs/Enabling%20Policy%20as%20Code%20feature.md) for more information
+  - Note that this flag is enabled by default for Ansible Automation Platform 2.6 and later
 - An OPA server that's reachable from your AAP deployment
   - See [Deploy OPA server on OpenShift](docs/Deploy%20OPA%20server%20on%20OpenShift.md) for development and testing setup
   - See [Deploy OPA server with Podman](docs/Deploy%20OPA%20server%20with%20Podman.md) for development and testing setup
@@ -53,6 +54,7 @@ The repository includes several example policies demonstrating different use cas
    - [Only allow approved Github source repo branches](7b.Only%20allow%20certain%20Git%20branches.md) - Only allow approved source repo branches
 8. [Enforce Naming Standards](8.Enforce%20Job%20Template%20Naming%20Standards.md) - ensure Job Template name conforms to our standards
 9. [Restrict usage of an Inventory to an Organization](9.Restrict%20Inventory%20use%20to%20an%20organization.md) - restrict inventory usage by organization
+10. [Enforce multiple policies](10.Enforce%20multiple%20policies.md) - Chain multiple policies together for use in AAP
 
 Each policy example includes:
 - Detailed explanation of the use case
